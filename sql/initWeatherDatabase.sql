@@ -10,15 +10,14 @@ CREATE DATABASE IF NOT EXISTS weather CHARACTER SET utf8mb4 COLLATE utf8mb4_unic
 USE weather;
 
 -- Supprimer les tables si elles existent (ordre inverse des dépendances)
-DROP TABLE WeatherReport;
-DROP TABLE Station;
-DROP TABLE WindReport;
-DROP TABLE WeatherCode;
-DROP TABLE WindOrientation;
-DROP TABLE Region;
+DROP TABLE IF EXISTS WeatherReport;
+DROP TABLE IF EXISTS Station;
+DROP TABLE IF EXISTS WindReport;
+DROP TABLE IF EXISTS WeatherCode;
+DROP TABLE IF EXISTS WindOrientation;
+DROP TABLE IF EXISTS Region;
 
 -- Création des tables
-
 CREATE TABLE Region (
     id INT PRIMARY KEY,
     name VARCHAR(255),
