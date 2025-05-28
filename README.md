@@ -95,3 +95,5 @@ docker-compose up --build
 ```
 
 **Attention : toutes les données existantes seront perdues lors de cette opération.**
+
+## 📄 [Rapport du projet](./report.md)
