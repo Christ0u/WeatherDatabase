@@ -21,7 +21,7 @@ Le MCD représente les entités principales et leurs relations :
 
 ### Diagramme MCD
 
-[![MCD](diagrams/Weather_MCD.svg)](diagrams/Weather_MCD.svg)
+[![MCD](../diagrams/Weather_MCD.svg)](../diagrams/Weather_MCD.svg)
 
 ---
 
@@ -29,7 +29,7 @@ Le MCD représente les entités principales et leurs relations :
 
 ### Diagramme MLD
 
-[![MLD](diagrams/Weather_MLD.svg)](diagrams/Weather_MLD.svg)
+[![MLD](../diagrams/Weather_MLD.svg)](../diagrams/Weather_MLD.svg)
 
 ---
 
