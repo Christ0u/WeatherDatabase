@@ -21,7 +21,7 @@ Le MCD représente les entités principales et leurs relations :
 
 ### Diagramme MCD
 
-[![MCD](diagrams/Weather_MCD.svg)](diagrams/Weather_MCD.svg)
+[![MCD](../diagrams/Weather_MCD.svg)](../diagrams/Weather_MCD.svg)
 
 ---
 
@@ -29,7 +29,7 @@ Le MCD représente les entités principales et leurs relations :
 
 ### Diagramme MLD
 
-[![MLD](diagrams/Weather_MLD.svg)](diagrams/Weather_MLD.svg)
+[![MLD](../diagrams/Weather_MLD.svg)](../diagrams/Weather_MLD.svg)
 
 ---
 
@@ -59,7 +59,7 @@ La table `WeatherReport` centralise les mesures (température, pression, hygrom�
 
 ## 5. Analyse du Script d’Initialisation
 
-Le script [`sql/initWeatherDatabase.sql`](sql/initWeatherDatabase.sql) :
+Le script [`sql/initWeatherDatabase.sql`](../sql/initWeatherDatabase.sql) :
 
 - Définit l’encodage en UTF-8 pour supporter les caractères spéciaux.
 - Crée la base `weather` si elle n’existe pas.
