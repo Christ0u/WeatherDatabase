@@ -59,7 +59,7 @@ La table `WeatherReport` centralise les mesures (température, pression, hygrom�
 
 ## 5. Analyse du Script d’Initialisation
 
-Le script [`sql/initWeatherDatabase.sql`](sql/initWeatherDatabase.sql) :
+Le script [`sql/initWeatherDatabase.sql`](../sql/initWeatherDatabase.sql) :
 
 - Définit l’encodage en UTF-8 pour supporter les caractères spéciaux.
 - Crée la base `weather` si elle n’existe pas.
